@@ -157,17 +157,17 @@ $id = session_id();
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 database-item">
-                    <a href="#database-tcga" class="database-link" data-toggle="modal">
+                    <a href="#database-user" class="database-link" data-toggle="modal">
                         <div class="database-hover">
                             <div class="database-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/database/tcga.jpg" class="img-responsive" alt="">
+                        <img src="img/database/mydata.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="database-caption">
-                        <h4>TCGA project</h4>
-                        <p class="text-muted">The Cancer Genome Atlas</p>
+                        <h4>My Data</h4>
+                        <p class="text-muted">Browse your own data</p>
                     </div>
                 </div>
             </div>
@@ -797,7 +797,7 @@ $id = session_id();
 
     <!-- RENDER TEMPLATE AFTER EVERYTHING ELSE LOADED -->
     
-    <script data-userid="../data/aneuploidy/,../data/trisomy/,../data/TCGA/BRCA/,../data/TCGA/LIHC/,../data/TCGA/LUAD/,../data/TCGA/PRAD/,../data/TCGA/THCA/,<?php echo '../data/user_uploads/'.$id.'/json/'; ?>" data-type="userfiles-aneuploidy,userfiles-trisomy,userfiles-brca,userfiles-lihc,userfiles-luad,userfiles-prad,userfiles-thca,userfiles-user" src="js/userFiles.js"></script>
+    <script data-userid="../data/aneuploidy/,../data/trisomy/,<?php echo '../data/user_uploads/'.$id.'/json/'; ?>" data-type="userfiles-aneuploidy,userfiles-trisomy,userfiles-user" src="js/userFiles.js"></script>
     <!--<script data-userid="../data/trisomy/" data-type="userfiles-trisomy" src="js/userFiles.js"></script>
     <script data-userid="../data/TCGA/HCC" data-type="userfiles-tcga" src="js/userFiles.js"></script>-->
     
