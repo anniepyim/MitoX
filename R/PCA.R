@@ -129,6 +129,3 @@ for(i in 1:length(mitofunc)){
 #  outputname <- paste("test/",sampleID[1],".json", sep="")
 #  write(dfjson,outputname)
 #}
-
-
-

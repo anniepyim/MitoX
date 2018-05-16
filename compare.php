@@ -8,7 +8,6 @@ if($compare){
     $jsarray =implode(",", $compare);
 }
 ?>
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>MitoXplorer - Analysis</title>
